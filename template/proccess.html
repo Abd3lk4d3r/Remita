@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Payment processing ...</title>
+</head>
+
+
+<body>
+<p>You will be redirected to Remita in few seconds.......</p>
+
+<form action="{{gatewayurl}}" id="remita_form" name="remita_form" method="POST">
+
+<input id="merchantId" name="merchantId" value="{{merchantId}}" type="hidden" />
+<input id="serviceTypeId" name="serviceTypeId" value="{{serviceTypeId}}" type="hidden" />
+<input id="responseurl" name="responseurl" value="{{responseurl}}" type="hidden" />
+<input id="orderId" name="orderId" value="{{orderId}}" type="hidden" />
+<input id="hash" name="hash" value="{{hash}}" type="hidden" />
+
+<input id="amt" name="amt" value="{{amt}}" type="hidden" />
+<input id="payerName" name="payerName" value="{{payerName}}" type="hidden" />
+<input id="paymenttype" name="paymenttype" value="{{paymenttype}}" type="hidden"/>
+<input id="payerEmail" name="payerEmail" value="{{payerEmail}}" type="hidden" />
+<input id="payerPhone" name="payerPhone" value="{{payerPhone}}" type="hidden" />
+
+</form>
+
+<script type="text/javascript">document.getElementById("remita_form").submit();</script>
+</body>
+
+</html>
