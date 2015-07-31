@@ -1,6 +1,6 @@
 Remita - PHP library to make payments with Remita
 ==============================
-(http://www.remita.net/developers/assets/images/remita-payment-logo-horizonal.png)
+![alt tag](http://www.remita.net/developers/assets/images/remita-payment-logo-horizonal.png)
 
 
 How does Remita Integration work
@@ -36,7 +36,7 @@ If I had time I will complete this work now I just see its a
 
 
 --------------------------------------
-@Package : 	Remita 
-@Author  : 	Abdelakder <jr.abdelkader@gmail.com>
-@date    : 	31/07/2015
+Package : 	Remita
+Author  : 	Abdelakder <jr.abdelkader@gmail.com>
+date    : 	31/07/2015
 --------------------------------------
